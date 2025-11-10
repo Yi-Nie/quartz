@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: .node-version    # Quartz v4 用 18/20 都可以，20 更新
+          node-version: 20    # Quartz v4 用 18/20 都可以，20 更新
           cache: 'npm'
 
       - name: Install deps
